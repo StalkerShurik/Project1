@@ -4,9 +4,10 @@ project(Project1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(OPTIM "-O3 -march=native")
+#set(OPTIM "-O3 -march=native")
 #set(DEFFLG "-pthread")
-set(DEBFLG "${DEFFLG} -Wall -Wextra -Werror -Wunused -Wunused-value")
+#set(DEBFLG "${DEFFLG} -Wall -Wextra -Werror -Wunused -Wunused-value")
+set(DEBFLG "${DEFFLG} -Wall -Werror")
 #set(SANIT "-fsanitize=address -static-libasan -fsanitize=leak -fsanitize=undefined -fno-omit-frame-pointer")
 
 #set(ALLDEF "${OPTIM} ${DEFFLG}")
